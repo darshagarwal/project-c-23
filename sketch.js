@@ -35,7 +35,7 @@ function draw() {
   box1.display();
   box2.display();
   box3.display();
-  triangle1.display();
+  triangle(580,200,630,100,680,200);
    box4.display();
    box5.display();
    triangle2.display();
