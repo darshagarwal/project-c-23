@@ -1,20 +1,20 @@
 class Box{
-     constructor(x,y,width,height){
-        var position = {
-            isStatic : true
-        }
-        this.body = Bodies.rectangle(x,y,width,height,position);
-        
-        this.width = width;
-        this.height = height;
-        World.add(world,this.body);
-    }
+    constructor(x,y,width,height){
+       var position = {
+           isStatic : true
+       }
+       this.body = Bodies.rectangle(x,y,width,height,position);
+       
+       this.width = width;
+       this.height = height;
+       World.add(world,this.body);
+   }
 
-        display(){
-            var pos = this.body.position;
-            rectMode(CENTER);
-            fill(255);
-            rect(pos.x,pos.y,this.width,this.height);
-        }
+       display(){
+           var pos = this.body.position;
+           rectMode(CENTER);
+           fill(255);
+           rect(pos.x,pos.y,this.width,this.height);
+       }
 
 };

@@ -38,9 +38,9 @@ function draw() {
   triangle(580,200,630,100,680,200);
    box4.display();
    box5.display();
-   triangle2.display();
+   triangle(417,250,470,100,517,250);
    box6.display();
-   triangle3.display();
+   triangle(260,200,305,100,355,200);
    box7.display();
   drawSprites();
 }
